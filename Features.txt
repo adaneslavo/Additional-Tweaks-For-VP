@@ -1,0 +1,9 @@
+Scouting line changes:
+	a) added 2 new promotions: Canoe and Floater;
+	b) Canoe starts new leaf line and can be picked after Survivalism I or Trailblazer I:
+		- allows embarkation, adds 1 movement and defense when embarked;
+	c) Frogman promotion is moved to the new leaf and can be picked after Canoe;
+	d) Floater can be picked after Frogman:
+		- double movement and heal, and additional defense on Marshes, Oasis and Flood Plains;
+
+	e) added @ma_kuh's scouting line rework (rearranging); link int the sql file;

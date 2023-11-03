@@ -1,0 +1,3 @@
+v1:
+- initialized the modmod;
+- added Scouting line changes (in 2 parts; first is mine, second is @ma_kuh's);
