@@ -114,6 +114,8 @@ UPDATE UnitPromotions SET OrderPriority = 301, FlagPromoOrder = 301 WHERE Type =
 UPDATE UnitPromotions SET RankList = NULL, OrderPriority = 312, FlagPromoOrder = 312 WHERE Type IN ('PROMOTION_WOODLAND_TRAILBLAZER_1', 'PROMOTION_WOODLAND_TRAILBLAZER_2', 'PROMOTION_WOODLAND_TRAILBLAZER_3');
 UPDATE UnitPromotions SET OrderPriority = 101, FlagPromoOrder = 101 WHERE Type IN ('PROMOTION_SCOUTING_1', 'PROMOTION_SCOUTING_2', 'PROMOTION_SCOUTING_3');
 
+UPDATE UnitPromotions SET OrderPriority = 105, FlagPromoOrder = 105 WHERE Type = 'PROMOTION_UNSTOPPABLE';
+
 INSERT INTO Unit_FreePromotions 
 			(UnitType, 						PromotionType)
 VALUES		('UNIT_SCOUT', 					'PROMOTION_UNSTOPPABLE'),
