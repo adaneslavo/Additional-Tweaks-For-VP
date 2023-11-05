@@ -5,7 +5,7 @@
     <ProjectGuid>{21de5d0b-4acd-4b55-845b-c1c56241fc69}</ProjectGuid>
     <Name>(game) Additional Tweaks for VP</Name>
     <Guid>af808977-d774-48c3-9b02-a7d23c34cc3f</Guid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>2</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>Bunch of personal tweaks and balance changes for the tests and personal gameplays.</Teaser>
     <Description>Bunch of personal tweaks and balance changes for the tests and personal gameplays.</Description>
