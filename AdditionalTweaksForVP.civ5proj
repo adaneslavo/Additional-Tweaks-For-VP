@@ -19,7 +19,6 @@
     <SupportsMac>true</SupportsMac>
     <AssemblyName>AdditionalTweaksForVP</AssemblyName>
     <RootNamespace>AdditionalTweaksForVP</RootNamespace>
-    <ModReferences />
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
@@ -45,6 +44,22 @@
         <MaxVersion>999</MaxVersion>
       </Association>
     </ModDependencies>
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>(@gwennog's) Ainu</Name>
+        <Id>3499cc3d-2073-42c9-9bf0-f39db982e741</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>(@gwennog's) Corsica</Name>
+        <Id>55abc424-63ea-4858-a3e5-15e8cca4890b</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
