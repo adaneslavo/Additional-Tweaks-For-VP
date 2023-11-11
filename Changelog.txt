@@ -1,3 +1,6 @@
+v2:
+- now compatible with Ainu (Matagi) and Corsica (Macchieri) civilizations by @gwennog;
+
 v1:
 - initialized the modmod;
 - added Scouting line changes (in 2 parts; first is mine, second is @ma_kuh's);
