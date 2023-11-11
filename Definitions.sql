@@ -10,11 +10,11 @@ Custom Civilizations compatibility patches!
 
 INSERT INTO COMMUNITY	
 		(Type,								Value)
-VALUES	('ACN-CIVILIZATION-AINU', 		2), -- @gwennog's part
-		('ACN-CIVILIZATION-CORSICA', 		2);
+VALUES	('AT-CIVILIZATION-AINU', 		2), -- @gwennog's part
+		('AT-CIVILIZATION-CORSICA', 		2);
 
-UPDATE Community SET Value = '1' WHERE Type = 'ACN-CIVILIZATION-AINU' AND EXISTS (SELECT * FROM Civilizations WHERE Type='CIVILIZATION_HININ_AINU') AND NOT EXISTS (SELECT * FROM COMMUNITY WHERE Type='ACN-CIVILIZATION-AINU' AND Value=0);
-UPDATE Community SET Value = '1' WHERE Type = 'ACN-CIVILIZATION-CORSICA' AND EXISTS (SELECT * FROM Civilizations WHERE Type='CIVILIZATION_DMS_CORSICA') AND NOT EXISTS (SELECT * FROM COMMUNITY WHERE Type='ACN-CIVILIZATION-CORSICA' AND Value=0);
+UPDATE Community SET Value = '1' WHERE Type = 'AT-CIVILIZATION-AINU' AND EXISTS (SELECT * FROM Civilizations WHERE Type='CIVILIZATION_HININ_AINU') AND NOT EXISTS (SELECT * FROM COMMUNITY WHERE Type='AT-CIVILIZATION-AINU' AND Value = 0);
+UPDATE Community SET Value = '1' WHERE Type = 'AT-CIVILIZATION-CORSICA' AND EXISTS (SELECT * FROM Civilizations WHERE Type='CIVILIZATION_DMS_CORSICA') AND NOT EXISTS (SELECT * FROM COMMUNITY WHERE Type='AT-CIVILIZATION-CORSICA' AND Value = 0);
 --==========================================================================================================================
 -- ATLASES
 --==========================================================================================================================	
