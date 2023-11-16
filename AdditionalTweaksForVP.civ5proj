@@ -5,7 +5,7 @@
     <ProjectGuid>{21de5d0b-4acd-4b55-845b-c1c56241fc69}</ProjectGuid>
     <Name>(game) Additional Tweaks for VP</Name>
     <Guid>af808977-d774-48c3-9b02-a7d23c34cc3f</Guid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>Bunch of personal tweaks and balance changes for the tests and personal gameplays.</Teaser>
     <Description>Bunch of personal tweaks and balance changes for the tests and personal gameplays.</Description>
@@ -56,6 +56,13 @@
         <Type>Mod</Type>
         <Name>(@gwennog's) Corsica</Name>
         <Id>55abc424-63ea-4858-a3e5-15e8cca4890b</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>(@gwennog's) Louisiana</Name>
+        <Id>3ea46c4f-6e13-46bf-ba28-71a3ffa85b53</Id>
         <MinVersion>0</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>

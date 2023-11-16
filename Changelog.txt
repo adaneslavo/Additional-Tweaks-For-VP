@@ -1,5 +1,5 @@
 v2:
-- now compatible with Ainu (Matagi) and Corsica (Macchieri) civilizations by @gwennog;
+- now compatible with Ainu (Matagi), Corsica (Macchieri) and Louisiana (Grand Voyageur) civilizations by @gwennog;
 
 v1:
 - initialized the modmod;
